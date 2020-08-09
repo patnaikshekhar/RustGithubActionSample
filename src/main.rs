@@ -21,3 +21,11 @@ struct Todo {
     title: String,
     completed: bool,
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn can_add_numbers() {
+        assert_eq!(2, 1 + 1)
+    }
+}
